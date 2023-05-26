@@ -29,7 +29,7 @@ stm32g4 = { version = "0.15.1", optional = true }
 #stm32h5 = { version = "0.15.1", optional = true }
 #stm32h5 = { path = "../../Desktop/h5_pac/stm32-rs/stm32h5", optional = true }
 stm32h7 = { version = "0.15.1", optional = true }
-stm32wb = { path = "../../stm32-rs/stm32wb", optional = true }
+stm32wb = { git = "https://github.com/iostat/stm32-rs.git", rev = "f6c7598a6fe12154898ecb872c42120dfabf6705", optional = true }
 stm32wl = { version = "0.15.1", optional = true }
 
 # Embedded-HAL traits and related libs. Featured-gated with `embedded-hal`.
